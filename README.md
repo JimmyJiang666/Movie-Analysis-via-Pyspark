@@ -12,9 +12,11 @@ Write a Spark program to compute the following:
 3. The names of the top three movies (by average user rating) in each genre.
 4. Top ten movie watchers ranked by the number of movies they have rated.
 5. Top ten pairs of users ranked by the number of movies both of them have rated.
+
 When considering the ratings for a movie, we only consider the users that have rated the
 movie. For instance, to compute the average rating for a movie we add all the ratings of the
 movie and divide by the number of users that have rated the movie.
+
 Your program should assume that the csv files are located in the same directory as your
 program. Along with your code give brief explanations for the algorithm used for each of the
 above tasks.
